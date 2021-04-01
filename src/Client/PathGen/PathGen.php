@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TsRpc\Client\DataHandle;
+namespace TsRpc\Client\PathGen;
 
 /**
  * path生成
@@ -11,8 +11,8 @@ namespace TsRpc\Client\DataHandle;
  */
 class PathGen
 {
-    public function genPath(): string
+    public function genPath($server, $name): string
     {
-
+        return $server . '@' . $name;
     }
 }

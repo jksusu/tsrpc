@@ -1,0 +1,16 @@
+{
+  "name": "jksusu/tsrpc",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jksusu",
+      "email": "jksusuppx@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TsRpc\\": "./src/"
+    }
+  }
+}
